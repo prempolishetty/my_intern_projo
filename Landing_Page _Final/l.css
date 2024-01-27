@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilro;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(227, 224, 224);
+    position: relative;
+}
+
+#nav {
+    height: 110px;
+    padding: 0 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#nav,
+img {
+    height: 50px;
+    margin-right: 200px;
+    border-radius: 50px;
+
+}
+
+#nav-prt1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-prt1 h4 {
+    margin-right: 60px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#nav-prt2 i {
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#content {
+    width: 100%;
+    height: calc(100% - 50px);
+    position: relative;
+    display: flex;
+}
+
+#left {
+    height: 100%;
+    width: 35%;
+    float: left;
+    padding: 60px 80px;
+    background-color: rgb(184, 188, 188);
+    border-radius: 50px;
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+
+}
+
+#left h1 {
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#left h5 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 50px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 10px 10px 5px 5px rgb(118, 109, 104);
+}
+
+#left h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+#left ul {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 100px;
+}
+
+#left h3 {
+    font-size: 20px;
+    font-weight: 900px;
+}
+
+#left button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 100px;
+    background-color: rgb(17, 17, 15);
+    border-radius: 50px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#right {
+    height: 100%;
+    width: 65%;
+    float: right;
+    white-space: nowrap;
+    overflow-x: auto;
+
+}
+.elem{
+    height: 600px;
+    width: 400px;
+    position: relative;
+    border-radius: 10px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.elem img{
+    height: 100%;
+    width: 120%;
+    object-fit:initial;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    box-shadow: 0 5px 10px black;
+    
+}
